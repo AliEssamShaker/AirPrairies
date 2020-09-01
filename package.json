@@ -1,0 +1,23 @@
+{
+  "name": "air370proj",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.4.6",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.cs.usask.ca/yol474/cmpt370-fantastic-4.git"
+  },
+  "description": ""
+}

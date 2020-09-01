@@ -1,10 +1,65 @@
-# AirPrairies
-A software engineering course project.
+## Getting Started
 
-This is a web page of an imaginary airline company that I developed with the help of my team in my software engineering course. The page is quite dynamic and responsive, and it enables the user to select an origin and destination, dates of travel, search for flights, choose a flight, fill out personal information, receive a confirmation to their preferred or indicated personal email, and also look up their recent bookings using their unique confirmation ID.
+Instructions to get the web application running on a local machine.
 
-I was responsible for all the backend work along with another teammate. And I build the database and tested it thoroughly, moreover, I implemented the logic of the search engine and quering from the database the right output according the user's search input, as well as displaying the results in the correct order and sense. I also contributed in some of the structural design of the page, as well as the general idea.
+### Prerequisites 
 
-We used Nodejs, HTML, CSS, JavaScript and SQlite.
+What must be installed to run the software:
 
-Our team followed Agile methodology throughout the process. We had about 12 milestones, where we had lots of reports to write, do user stories, epics, and so on all the way to the final Aplha and Beta phases. It was overall a remarkable experience, and I certainly learned a lot.
+```
+nodejs, sqlite3, express, ejs, nodemailer
+```
+
+### Installing
+
+How to run the application:
+
+Clone the git branch
+
+```
+git clone https://git.cs.usask.ca/yol474/cmpt370-fantastic-4.git
+```
+
+Download and install nodejs
+
+```
+https://nodejs.org/en/download/
+```
+
+Navigate to the **air370proj** folder that contains **app.js**
+
+```
+cmpt370-fantastic-4\air370proj\AirPararies370proj\air370proj
+```
+
+Use npm to install the following requirements.
+
+```
+npm init
+npm i sqlite3
+npm i express
+npm i ejs
+npm i nodemailer
+```
+
+Run app.js using command line
+
+```
+node app.js
+```
+
+Application will be live on port 2020
+
+```
+localhost:2020/
+```
+
+If you would like a reference when booking a flight be sure to use a real email in the form.<br>
+The site may need to be reactivated to have the latest booking information since
+it is local.
+
+### Wiki
+
+Features details for all milestones and group members<br>
+
+https://git.cs.usask.ca/yol474/cmpt370-fantastic-4/wikis
